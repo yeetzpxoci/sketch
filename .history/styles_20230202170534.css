@@ -1,0 +1,19 @@
+body {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    gap: 1px;
+    width: 900px;
+    height: 900px;
+    
+}
+
+.square {
+    background-color: black;
+    width: 2px;
+    height: 2px;
+}
