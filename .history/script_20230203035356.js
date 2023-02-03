@@ -77,13 +77,7 @@ function squarePerSide() {
         })
         square.addEventListener("mouseover", function () {
             if (hold) {
-                if (colorMode == "bw") {
-                    this.style.backgroundColor = "black";
-                }
-
-                if (colorMode == "rainbow") {
-                    this.style.backgroundColor = getRandomColor();
-                }
+                this.style.backgroundColor = "black";
             }
         })
         document.getElementById("container").appendChild(square);

@@ -76,14 +76,12 @@ function squarePerSide() {
             }
         })
         square.addEventListener("mouseover", function () {
-            if (hold) {
-                if (colorMode == "bw") {
-                    this.style.backgroundColor = "black";
-                }
+            if (colorMode == "bw") {
+                this.style.backgroundColor = "black";
+            }
 
-                if (colorMode == "rainbow") {
-                    this.style.backgroundColor = getRandomColor();
-                }
+            if (colorMode == "rainbow") {
+                this.style.backgroundColor = getRandomColor();
             }
         })
         document.getElementById("container").appendChild(square);
